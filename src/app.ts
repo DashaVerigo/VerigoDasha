@@ -4,6 +4,7 @@ import express from "express";
 import dotenv from "dotenv";
 import logger from "./logger";
 import DataBase from "./db/database";
+import routes from "./routes/routers";
 
 dotenv.config();
 
